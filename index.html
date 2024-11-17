@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WebTV BETA | v0.3.1</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/hls.js@latest"></script>
+</head>
+<body>
+    <header>
+        <div class="menu-icon" id="menu-icon">&#9776;</div>
+        <div class="banner">
+            <img src="https://qu.ax/KsdZ.jpg" alt="Banner">
+            <!-- banner... https://qu.ax/KsdZ.jpg -->
+            <!-- banner... https://images.blz-contentstack.com/v3/assets/blt2477dcaf4ebd440c/blteec179d006096c80/638810adf9f61910b4235893/widowmaker-01.jpg -->
+            <!-- banner... https://image-3.uhdpaper.com/wallpaper/tesla-cybertruck-hd-wallpaper-uhdpaper.com-271@3@a.jpg -->
+        </div>
+        <div class="menu" id="menu">
+            <a href="#" id="theme-link">Tema</a>
+            <a href="#" id="about-link">Sobre</a>
+            <a href="#" id="terms-link">Termos</a>
+            <a href="#" id="tv-link">TVs</a>
+            <a href="#" id="radio-link">Rádios</a>
+        </div>
+
+        <div class="theme" id="theme">
+            <a onclick="setTheme('theme-blue')" href="#" id="blue-color">+Azul 🔵</a></a>
+            <a onclick="setTheme('theme-red')" href="#" id="red-color">+Vermelho 🔴</a></a>
+            <a onclick="setTheme('theme-purple')" href="#" id="purple-color">+Roxo 🟣</a></a>
+            <a onclick="setTheme('theme-green')" href="#" id="green-color">+Verde 🟢</a></a>
+            <a onclick="setTheme('theme-light')" href="#" id="light-color">+Light ⚪</a></a>
+        </div>
+    
+    </header>
+
+    <main>
+        <h1>🌐 WebTV beta [Testing...] 📺</h1>
+        <div class="view-options">
+            <button id="list-view">➖ Lista</button>
+            <button id="grid-view">◼️ Grade</button>
+        </div>
+        <div class="channels" id="channels"></div>
+    </main>
+
+    <div id="popup" class="popup">
+        <span id="close-popup">&times;</span>
+        <video id="video" controls></video>
+    </div>
+
+ 
+    <script src="canais.js"></script>
+    <script src="player.js"></script>
+    <script src="base.js"></script>
+
+    <div class="endweb">
+        <img src="https://images.hdqwalls.com/download/4k-cyberpunk-2077-game-v7-1920x1080.jpg" alt="EndWeb">
+    </div>
+
+    <div class="endtext">
+        <div class="boxend1">
+            <h2>Creditos</h2>
+            <h4>Created by: </h4><a href="https://link.tree">@CYBERGU!LD</a>
+            <h4>Email: </h4><a href="#">jemp1305.unkn@gmail.com</a>
+            <h4>Contact: </h4> <a href="#">+DDD 88 8888-8888</a>
+        </div>
+    </div>
+</body>
+</html>

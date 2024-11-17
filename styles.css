@@ -1,0 +1,270 @@
+body {
+    background: rgb(0, 0, 0);
+    color: #fff;
+    font-family: 'Arial', sans-serif;
+    margin: 50px;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+header {
+    position: relative;
+    top: 0;
+    background: rgba(0, 0, 0, 0.8);
+    backdrop-filter: blur(10px);
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    z-index: 1000;
+    justify-content: center; /* Center banner */
+}
+
+.menu-icon {
+    font-size: 24px;
+    cursor: pointer;
+    position: absolute;
+    left: 5px;
+    top: -2px;
+    z-index: 1001; /* Ensure it appears over the banner */
+}
+
+.endweb {
+    position: relative;
+    width: 100%;
+    text-align: center;
+}
+
+.endweb img {
+    border-radius: 8px;
+    width: 99%;
+    max-height: 100px;
+    object-fit: cover;
+    filter: blur(1px);
+    box-shadow: 0px 10px 15px 2px rgb(0, 255, 204);
+}
+
+.banner {
+    position: relative;
+    width: 100%;
+    text-align: center;
+}
+
+.banner img {
+    width: 100%;
+    max-height: 100px;
+    object-fit: cover;
+    filter: blur(2px);
+    box-shadow: 0px 0px 15px #0ff;
+}
+
+.menu {
+    display: none;
+    position: absolute;
+    left: 10px;
+    top: 50px;
+    background: rgba(0, 0, 0, 0.9);
+    border-radius: 8px;
+    padding: 16px;
+    box-shadow: 0px 0px 15px #0ff;
+}
+
+.theme {
+    display: none;
+    position: absolute;
+    left: 100px;
+    top: 40px;
+    background: rgba(0, 0, 0, 0.9);
+    border-radius: 8px;
+    padding: 16px;
+    box-shadow: 0px 0px 15px #00ffc7;
+}
+
+.theme a {
+    color: #00ffc7;
+    display: block;
+    margin: 10px 0;
+    text-decoration: none;
+}
+
+.menu a {
+    color: #0ff;
+    display: block;
+    margin: 10px 0;
+    text-decoration: none;
+}
+
+main {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.view-options {
+    margin: 20px;
+}
+
+.view-options button {
+    background: #0ff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin: 0 5px;
+    color: #000;
+}
+
+.view-options button:hover {
+    background: #0cc;
+}
+
+.channels {
+    display: block; /* Default to list view */
+    padding: 20px;
+    border-radius: 8px;
+
+}
+
+.channel {
+    background: #111;
+    padding: 10px;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 0px 0px 10px #0ff;
+    margin-bottom: 27px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.channel img {
+    width: 80px; /* Adjust size */
+    height: 80px; /* Adjust size */
+    max-width: 100%;
+    border-radius: 8px;
+    object-fit: contain; /* Maintain aspect ratio */
+    box-shadow: 0px 0px 2px #0ff;
+    background: rgb(41, 41, 41);
+}
+
+.channel h2 {
+    font-size: 16px; /* Adjust font size */
+    color: #0ff;
+    margin: 0 10px;
+}
+
+.channel button {
+    background: #0ff;
+    border: none;
+    padding: 5px 10px; /* Adjust padding */
+    cursor: pointer;
+    border-radius: 5px;
+    color: #000;
+}
+
+.channel button:hover {
+    background: #0cc;
+}
+
+.popup {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.9);
+    display: none;
+    z-index: 1001;
+    box-shadow: 0px 0px 15px #0ff;
+    overflow: hidden;
+}
+
+.endtext {
+    align-items: center;
+    background: rgba(0, 0, 0, 0.9);
+    border-radius: 8px;
+    padding: 16px;
+    /*box-shadow: 0px 0px 15px #0ff;*/
+}
+
+.endtext a {
+    /*display: flex;*/
+    margin: 10px 0;
+    text-decoration: none;
+    text-align: center;
+    align-items: center;
+    justify-content: space-between;
+    color: rgb(0, 255, 179);
+}
+
+.endtext h4 {
+    display: flex;
+    margin: 10px 0;
+    text-decoration: none;
+    justify-content: space-between;
+    color: rgb(0, 195, 255);
+}
+
+#close-popup {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+    font-size: 24px;
+    color: #0ff;
+}
+
+#player {
+    width: 100%;
+    height: 100%;
+    border: none;
+    margin-top: 50px; /* Adjusted for better fit */
+}
+
+#video {
+    width: 70%;
+    max-width: 89%;
+    height: auto;
+    border: 20px solid #000;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    background-color: #000;
+    display: block;
+    margin: 0 auto;
+    object-fit: contain;
+}
+
+
+
+
+.grid-view .channels {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); /* Adjust grid columns */
+    gap: 10px; /* Space between items */
+}
+
+.grid-view .channel {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+}
+
+.grid-view .channel img {
+    width: 100px; /* Fixed size */
+    height: 100px; /* Fixed size */
+    margin-bottom: 5px; /* Space between image and text */
+}
+
+.grid-view .channel h2 {
+    font-size: 14px; /* Adjust font size */
+}
+
+@media screen and (max-width: 600px) {
+    .channel img {
+        width: 40px;
+        height: 40px;
+    }
+
+    #player {
+        height: 40vh;
+    }
+}

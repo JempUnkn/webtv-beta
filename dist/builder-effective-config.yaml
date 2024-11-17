@@ -1,0 +1,12 @@
+directories:
+  output: dist
+  buildResources: build
+appId: com.cyberguild.webtv
+mac:
+  icon: ./app-icon.icns
+win:
+  icon: ./app-icon.ico
+linux:
+  icon: ./app-icon.png
+files: []
+electronVersion: 30.3.0

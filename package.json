@@ -1,0 +1,29 @@
+{
+  "name": "WEBTV",
+  "productName": "WEBTV",
+  "description": "A Webtv//IPTV for free",
+  "keywords": [],
+  "main": "./main.js",
+  "version": "0.3.1",
+  "author": "CYBERGUILD",
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-builder"
+  },
+  "devDependencies": {
+    "electron": "30.3.0",
+    "electron-builder": "^24.13.3"
+  },
+  "build": {
+    "appId": "com.cyberguild.webtv",
+    "mac": {
+      "icon": "./app-icon.icns"
+    },
+    "win": {
+      "icon": "./app-icon.ico"
+    },
+    "linux": {
+      "icon": "./app-icon.png"
+    }
+  }
+}
