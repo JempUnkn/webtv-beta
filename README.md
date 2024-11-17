@@ -226,7 +226,8 @@ Se estiver criando para Mac e o instalador falhar, a causa mais comum é a falta
 Após executar o comando `npm run build`, o instalador estará disponível na pasta `dist/`, e você poderá distribuí-lo para os usuários finais. Caso queira testar o instalador, basta clicar no arquivo gerado e seguir o assistente de instalação.
 
 Se seguir todas essas etapas, você conseguirá empacotar e criar o instalador do seu aplicativo com **Electron** e **Electron Builder** de forma eficaz e sem grandes problemas.
+ 
+Created by me
+ [![Nobody](https://i.ibb.co/JqCcwCm/Turbo-Granny-29-Infobox-29.png)](https://github.com/JempUnkn)
 
-
-
-WebPage: [webtv.io](https://jempunkn.github.io/webtv-beta) by cybergu!ld
+ - WebPage: [webtv.io](https://jempunkn.github.io/webtv-beta) by cybergu!ld
