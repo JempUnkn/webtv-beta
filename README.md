@@ -227,4 +227,6 @@ Após executar o comando `npm run build`, o instalador estará disponível na pa
 
 Se seguir todas essas etapas, você conseguirá empacotar e criar o instalador do seu aplicativo com **Electron** e **Electron Builder** de forma eficaz e sem grandes problemas.
 
+
+
 WebPage: [webtv.io](https://jempunkn.github.io/webtv-beta) by cybergu!ld
