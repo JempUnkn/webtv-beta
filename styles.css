@@ -223,8 +223,6 @@ main {
     width: 70%;
     max-width: 89%;
     height: auto;
-    border: 20px solid #000;
-    border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
     background-color: #000;
     display: block;
