@@ -25,6 +25,7 @@ header {
     position: absolute;
     left: -30px;
     top: -30px;
+    margin-top: 30px;
     z-index: 1001; /* Ensure it appears over the banner */
 }
 
