@@ -23,8 +23,8 @@ header {
     font-size: 24px;
     cursor: pointer;
     position: absolute;
-    left: 5px;
-    top: -2px;
+    left: -30px;
+    top: 5px;
     z-index: 1001; /* Ensure it appears over the banner */
 }
 
