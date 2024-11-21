@@ -10,8 +10,8 @@
     <strong>É um app/web onde pode assistir Streaming de Canais.</strong>
   </p>
 
-[![build](https://img.shields.io/github/actions/workflow/status/hydralauncher/hydra/build.yml)](https://github.com/JempUnkn/webtv-beta/releases/tag/v0.3.1.nomenubar)
-[![release](https://img.shields.io/github/package-json/v/hydralauncher/hydra)](https://github.com/JempUnkn/webtv-beta/releases)
+[![build](https://img.shields.io/github/actions/workflow/status/jempunkn/webtv-beta/build.yml)](https://github.com/JempUnkn/webtv-beta/releases/tag/v0.3.1.nomenubar)
+[![release](https://img.shields.io/github/package-json/v/jempunkn/webtv-beta)](https://github.com/JempUnkn/webtv-beta/releases)
 <br>
 </div>
 
