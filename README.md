@@ -1,3 +1,20 @@
+<br>
+
+<div align="center">
+
+[<img src="https://raw.githubusercontent.com/JempUnkn/webtv-beta/refs/heads/main/app-icon.png" width="144"/>](https://github.com/jempunkn)
+
+  <h1 align="center">WebTV - BETA</h1>
+
+  <p align="center">
+    <strong>É um app/web onde pode assistir Streaming de Canais.</strong>
+  </p>
+
+[![build](https://img.shields.io/github/actions/workflow/status/hydralauncher/hydra/build.yml)](https://github.com/JempUnkn/webtv-beta/releases/tag/v0.3.1.nomenubar)
+[![release](https://img.shields.io/github/package-json/v/hydralauncher/hydra)](https://github.com/JempUnkn/webtv-beta/releases)
+<br>
+</div>
+
 # Tutorial Completo: Usando Electron Builder com Electron
 
 Este tutorial completo irá guiá-lo no processo de empacotar e criar um instalador para seu aplicativo Electron usando o **Electron Builder**. Inclui desde a instalação até a personalização e solução de problemas.
@@ -227,7 +244,10 @@ Após executar o comando `npm run build`, o instalador estará disponível na pa
 
 Se seguir todas essas etapas, você conseguirá empacotar e criar o instalador do seu aplicativo com **Electron** e **Electron Builder** de forma eficaz e sem grandes problemas.
  
-Created by me
+Created by me :)
+<div align="center">
+
  [![Nobody](https://i.ibb.co/JqCcwCm/Turbo-Granny-29-Infobox-29.png)](https://github.com/JempUnkn)
 
- - WebPage: [webtv.io](https://jempunkn.github.io/webtv-beta) by cybergu!ld
+WebPage: [webtv.io](https://jempunkn.github.io/webtv-beta) by cybergu!ld
+</div>
