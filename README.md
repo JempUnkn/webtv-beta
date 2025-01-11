@@ -11,7 +11,7 @@
   </p>
 
 [![build](https://img.shields.io/github/actions/workflow/status/JempUnkn/webtv-beta/dist/builder-debug.yml)](https://github.com/JempUnkn/webtv-beta/releases/tag/v0.3.1.nomenubar-fixbugs)
-![Static Badge](https://img.shields.io/badge/alpha%20release-v0.3.1-blue)
+[![Static Badge](https://img.shields.io/badge/Alpha%20release-v0.3.1-blue)](https://jempunkn.github.io/webtv-beta/)
 [![release](https://img.shields.io/github/package-json/v/jempunkn/webtv-beta)](https://github.com/JempUnkn/webtv-beta/releases)
 <br>
 </div>
