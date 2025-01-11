@@ -10,7 +10,7 @@
     <strong>É um app/web onde pode assistir Streaming de Canais.</strong>
   </p>
 
-[![build](https://img.shields.io/github/actions/workflow/status/jempunkn/webtv-beta/build.yml)](https://github.com/JempUnkn/webtv-beta/releases/tag/v0.3.1.nomenubar)
+[![build](https://img.shields.io/github/actions/workflow/status/JempUnkn/webtv-beta/dist/builder-debug.yml)](https://github.com/JempUnkn/webtv-beta/releases/tag/v0.3.1.nomenubar)
 [![release](https://img.shields.io/github/package-json/v/jempunkn/webtv-beta)](https://github.com/JempUnkn/webtv-beta/releases)
 <br>
 </div>
